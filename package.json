@@ -1,0 +1,25 @@
+{
+	"name": "npmwat",
+	"version": "0.1.0",
+	"description": "Lists all scripts in package.json and allows user input filtering and select. Also detects whether project should be run with yarn or npm",
+	"main": "index.js",
+	"bin": {
+		"npmwat": "./index.js"
+	},
+	"scripts": {
+		"start": "node index.js",
+		"wooferooni": "echo pretty cool brah",
+		"wooooof": "echo awoooooooooooooo",
+		"woof": "npm run list",
+		"list": "ls | grep js --color"
+	},
+	"keywords": [
+		"scripts",
+		"runner"
+	],
+	"author": "Jimmy Dale Cleveland",
+	"license": "ISC",
+	"dependencies": {
+		"enquirer": "^2.3.6"
+	}
+}
